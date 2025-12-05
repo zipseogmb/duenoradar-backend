@@ -1,0 +1,16 @@
+{
+  "name": "duenoradar-backend",
+  "version": "0.1.0",
+  "description": "Backend demo para DueñoRadar: unifica resultados de búsqueda inmobiliaria usando Google vía SerpApi.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  }
+}
